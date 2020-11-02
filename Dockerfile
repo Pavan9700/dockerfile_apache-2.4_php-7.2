@@ -2,6 +2,7 @@
 from amarsingh3d/apache2.4
 # Mainter Name
 maintainer Amar Singh
+RUN apt-transport-https
 # Command to update and install Apache packages
 RUN apt-get update && apt-get install apache2 -y
 #to pass all the interactive pop up auto
